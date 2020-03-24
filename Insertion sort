@@ -1,0 +1,12 @@
+#bubble sort
+array=[9,8,7,6,5,4,3,2,1]
+n=len(array)
+for i in range(1,n):
+    k=i #copy of variable
+    while array[k-1]>array[k]:
+        #swapping
+        x=array[k-1]
+        array[k-1]=array[k]
+        array[k]=x
+        #for decreasing index of array
+        k=k-1

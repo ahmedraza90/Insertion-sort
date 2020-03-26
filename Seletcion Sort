@@ -1,0 +1,11 @@
+#selection Sort
+array=[9,8,7,6,5,4,3,2,1]
+n=len(array)
+for i in range(n-1):
+    for j in range(i+1,n):
+        if array[i]>array[j]:
+         x=array[i]
+         array[i]=array[j]
+         array[j]=x
+        
+        
